@@ -1,0 +1,9 @@
+.rotation{
+  overflow: hidden;
+}
+
+.rotation:hover{
+  opacity: 0.8;
+  /*transform: rotate(360deg);*/
+  /*transition: 20s linear;*/
+}
