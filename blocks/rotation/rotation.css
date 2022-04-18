@@ -1,9 +1,12 @@
-.rotation{
-  overflow: hidden;
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.rotation:hover{
-  opacity: 0.8;
-  /*transform: rotate(360deg);*/
-  /*transition: 20s linear;*/
+.rotation:hover {
+  animation: rotation linear 20s infinite
 }
