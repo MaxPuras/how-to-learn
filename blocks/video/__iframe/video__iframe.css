@@ -2,8 +2,5 @@
   width: 515px;
   height: 316px;
   border: 0;
-}
-
-.video__iframe:not(:first-child) {
-  margin-left: 20px;
+  margin-right: 20px;
 }
