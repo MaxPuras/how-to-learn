@@ -1,7 +1,5 @@
 .footer__column_content_social {
   justify-content: space-around;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: 0;
+  margin: 0;
   list-style-type: none;
 }
